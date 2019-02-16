@@ -355,6 +355,16 @@ footer .container2 {
     display: flex;
     justify-content: center;
     text-align: justify;
+    
+}
+    
+@media (min-width: 340px) {
+    footer .container {
+        flex-direction: row; 
+        justify-content: space-evenly;
+        align-items: center;
+        color: ##FFFF00;
+    }
 }
 
 @media (min-width: 540px) {
