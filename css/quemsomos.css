@@ -314,10 +314,12 @@ footer .container2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #FFFF00;
 }
 
 .baseboard h2 {
     text-align: center;
+    color: #FFFF00;
 }
 
 
