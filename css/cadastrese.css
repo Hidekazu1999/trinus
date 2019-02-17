@@ -173,6 +173,16 @@ header button {
 
 /* HOME */
 
+#home {
+    margin-top: 0px;
+    background-image: url(../imgs/natureza-praia-mar-palmeiras-wallpaper.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: auto;
+}
+
 .container {
     display: grid;
 }
@@ -181,12 +191,11 @@ header button {
     text-align: center;
     color: rgb(255, 238, 0);
 }
-div {
-    color: white;
-}
+
 label {
     color: white;
 }
+
 @media (min-width: 510px) {
     label {
 
@@ -334,7 +343,6 @@ label {
 
 @media (max-width: 1400px) {
     label {
-
         display: inline-block;
         width: 90px;
     }
@@ -342,7 +350,6 @@ label {
         background-color: #00aab6;
         padding: 5%;
     }
-
 
     main form {
         display: flex;
@@ -364,6 +371,19 @@ label {
     .container {
         text-align: center;
     }
+
+    .p5{
+        text-align: left;
+    } 
+
+    .p6{
+        text-align: left;
+    } 
+    
+    .p7{
+        text-align: left;
+    } 
+
     .container .cadastro {
         display: grid;
     }
@@ -372,8 +392,6 @@ label {
         grid-template-columns: repeat(1,1fr);
     }
 }
-
-
 
 /* FORM */
 
